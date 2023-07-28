@@ -52,5 +52,3 @@ function sucessoValidation(input){
 
     controleForm.className = "controle-form sucesso"
 }
-
-console.log(nome);
