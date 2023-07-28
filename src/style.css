@@ -1,0 +1,100 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    max-width: 800px;
+    min-height: 402px;
+    background-image: url(./images/bg-repeat.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 50px;
+    gap: 60px;
+}
+
+.texto{
+    color: #fff;
+    max-width: 300px;
+}
+
+.texto h2{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.texto p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.form{
+    width: 340px;
+    height: 378px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.controle-form{
+    margin-bottom: 6px;
+}
+
+.controle-form .input{
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #a8a8a8;
+    width: 100%;
+    padding: 7px;
+}
+
+.controle-form .oculto{
+    visibility: hidden;
+    font-size: 8px;
+    font-weight: 400;
+    color: #f52e2e;
+    margin-bottom: 6px;
+}
+
+.controle-form #mensagem{
+    height: 100px;
+}
+
+.form .aviso{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.form button{
+    background-color: #3ccc87;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.controle-form.sucesso input{
+    border-color: #3ccc87;
+}
+
+.controle-form.erro input{
+    border-color: #f52e2e;
+}
+
+.controle-form.erro .oculto{
+    visibility: visible;
+}
